@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+http://maven.apache.org/xsd/maven-4.0.0.xsd" 
+xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>org.bluevox.inc</groupId>
+    <artifactId>com.springinpractice.top</artifactId>
+    <version>1.0-RELEASE</version>
+  </parent>
+  
+  <groupId>org.bluevox.inc</groupId>
+  <artifactId>com.springinpractice.api</artifactId>
+  <version>1.0-RELEASE</version>
+  
+  <name>Spring in Practice API</name>
+  <url>http://springinpractice.com</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <description>Spring in Practice core API.</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.bluevox.inc</groupId>
+  		<artifactId>com.springinpractice.deps-web</artifactId>
+  		<version>1.0-RELEASE</version>
+  		<type>pom</type>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.bluevox.in</groupId>
+  		<artifactId>com.springinpractice.deps-hibernate</artifactId>
+  		<version>1.0-RELEASE</version>
+  		<type>pom</type>
+  	</dependency>
+  </dependencies>
+</project>
