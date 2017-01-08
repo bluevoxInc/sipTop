@@ -7,6 +7,6 @@
   </head>
   <body>
     <h1>Welcome</h1>
-    <jsp:include page="/WEB-INF/jsp/extras/photoPanel.jspf" />
+    <%@include file="/WEB-INF/jsp/extras/photoPanel.jspf" %>
   </body>
 </html>
