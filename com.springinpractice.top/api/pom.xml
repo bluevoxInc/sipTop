@@ -27,7 +27,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   		<groupId>org.bluevox.inc</groupId>
   		<artifactId>com.springinpractice.deps-web</artifactId>
   		<version>1.0-RELEASE</version>
-  		<type>pom</type>
+  		<type>jar</type>
   	</dependency>
   	<dependency>
   		<groupId>org.bluevox.in</groupId>

@@ -45,13 +45,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
-  
+       
   <modules>
     <module>hibernate</module>
-    <module>web</module>
+    
     <module>api</module>
     <module>jpa</module>
     <module>skin</module>
+    <module>web</module>
   </modules>
   
   <!-- =========================================================================================================== -->
@@ -112,6 +113,7 @@
         <artifactId>validation-api</artifactId>
         <version>${validation.version}</version>
       </dependency>
+      
       
       <!-- Apache dependencies -->
       <dependency>
@@ -611,7 +613,6 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.1</version>
     </dependency>
     
     <!-- Spring dependencies -->
@@ -631,6 +632,38 @@
       <groupId>org.springframework</groupId>
       <artifactId>org.springframework.context</artifactId>
     </dependency>
+    <!-- JavaEE dependencies -->
+    <dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>com.springsource.javax.servlet</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>com.springsource.javax.servlet.jsp</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>javax.servlet</groupId>
+  		<artifactId>
+  			com.springsource.javax.servlet.jsp.jstl
+  		</artifactId>
+  	</dependency>
+  	
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>org.springframework.web</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>org.springframework.web.servlet</artifactId>
+  	</dependency>
+  	
+  	<!-- Sitemesh dependency -->
+  	<dependency>
+  		<groupId>com.opensymphony.sitemesh</groupId>
+  		<artifactId>
+  			com.springsource.com.opensymphony.sitemesh
+  		</artifactId>
+  	</dependency>
     
     <!-- Hibernate dependencies -->
     <dependency>

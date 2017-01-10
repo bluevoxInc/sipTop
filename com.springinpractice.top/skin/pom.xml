@@ -20,12 +20,12 @@
   <dependencies>
   
     <dependency>
-      <groupId>com.springinpractice</groupId>
-      <artifactId>com.springinpractice.deps-web</artifactId>
-      <version>1.0-RELEASE</version>
-      <type>pom</type>
-      <optional>true</optional>
+  		<groupId>org.bluevox.inc</groupId>
+  		<artifactId>com.springinpractice.deps-web</artifactId>
+  		<version>1.0-RELEASE</version>
+  		<type>jar</type>
     </dependency>
+    
   
   </dependencies>
   
