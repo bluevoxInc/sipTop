@@ -5,8 +5,8 @@
   
   <groupId>org.bluevox.inc</groupId>
   <artifactId>com.springinpractice.top</artifactId>
-  <packaging>pom</packaging>
   <version>1.0-RELEASE</version>
+  <packaging>pom</packaging>
   
   <name>Spring in Practice Top POM</name>
   <description>Top POM for deriving all of the other POMs.</description>
@@ -48,11 +48,10 @@
        
   <modules>
     <module>hibernate</module>
-    
-    <module>api</module>
     <module>jpa</module>
-    <module>skin</module>
     <module>web</module>
+    <module>api</module>
+    <module>skin</module>
   </modules>
   
   <!-- =========================================================================================================== -->

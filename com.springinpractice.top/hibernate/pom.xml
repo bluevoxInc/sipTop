@@ -1,16 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  
   <parent>
     <groupId>org.bluevox.inc</groupId>
     <artifactId>com.springinpractice.top</artifactId>
     <version>1.0-RELEASE</version>
   </parent>
+  
   <artifactId>com.springinpractice.deps-hibernate</artifactId>
+  <packaging>pom</packaging>
+  
   <name>Spring in Practice Hibernate POM</name>
   <description>POM to group Hibernate and related dependencies.</description>
-  <packaging>pom</packaging>
-  <groupId>org.bluevox.in</groupId>
-  <version>1.0-RELEASE</version>
   <url>http://springinpractice.com/</url>
   
   <!-- JavaEE dependencies -->

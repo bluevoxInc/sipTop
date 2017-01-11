@@ -11,6 +11,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   </parent>
 
   <artifactId>com.springinpractice.deps-web</artifactId>
+  <packaging>pom</packaging>
   
   <name>Spring in Practice Web POM</name>
   <description>POM to group Spring Web MVC and related dependencies</description>
@@ -51,4 +52,5 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
   		</artifactId>
   	</dependency>
   </dependencies>
+  
 </project>

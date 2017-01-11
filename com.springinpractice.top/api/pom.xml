@@ -27,13 +27,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   		<groupId>org.bluevox.inc</groupId>
   		<artifactId>com.springinpractice.deps-web</artifactId>
   		<version>1.0-RELEASE</version>
-  		<type>jar</type>
+  		<type>pom</type>
+  		<optional>true</optional>
   	</dependency>
   	<dependency>
   		<groupId>org.bluevox.in</groupId>
   		<artifactId>com.springinpractice.deps-hibernate</artifactId>
   		<version>1.0-RELEASE</version>
   		<type>pom</type>
+  		<optional>true</optional>
   	</dependency>
   </dependencies>
 </project>
