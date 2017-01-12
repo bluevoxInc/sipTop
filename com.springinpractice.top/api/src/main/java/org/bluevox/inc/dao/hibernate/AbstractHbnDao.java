@@ -63,6 +63,8 @@ public abstract class AbstractHbnDao<T extends Object> implements Dao<T> {
 				//Ignore; simply abort setDate() attempt.
 			}
 		}
+		
+		getSession().save(t);
 
 	}
 
